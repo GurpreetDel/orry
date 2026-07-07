@@ -47,12 +47,14 @@ export type GalleryItem = {
 export const gallery: GalleryItem[] = [
   // Publicity/press photos — sources credited in the footer disclaimer.
   { src: "/photos/bigg-boss.jpg", caption: "“I am a liver” — Bigg Boss 17", span: "wide" },
+  { src: "/photos/glam-3.jpg", caption: "Couture, crystals & a dragonfly", span: "tall" },
   { src: "/photos/with-sara.jpg", caption: "Beach day with Sara Ali Khan", span: "tall" },
+  { src: "/photos/with-janhvi.jpg", caption: "Neon nights with Janhvi Kapoor" },
   { src: "/photos/with-kareena.jpg", caption: "With Kareena Kapoor" },
   { src: "/photos/with-kylie.jpg", caption: "With Kylie Jenner", span: "tall" },
   { src: "/photos/orry-main.jpg", caption: "The signature look" },
-  { src: "/photos/with-dog.jpg", caption: "Poolside, animal lover" },
-  { src: "/photos/at-restaurant.jpg", caption: "Out and about", span: "wide" },
+  { src: "/photos/with-dog.jpg", caption: "Poolside, animal lover", span: "wide" },
+  { src: "/photos/at-restaurant.jpg", caption: "Out and about" },
   { src: "/photos/childhood.jpg", caption: "Childhood, with his mother & brother", span: "tall" },
   { src: "/photos/at-party.jpg", caption: "Younger days" },
 ]
