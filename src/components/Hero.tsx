@@ -39,12 +39,16 @@ export default function Hero() {
           {site.tagline}
         </motion.p>
 
-        <h1 className="font-display text-6xl leading-[0.95] font-black sm:text-8xl lg:text-9xl">
+        <h1 className="font-display text-6xl leading-[1.06] font-black sm:text-8xl lg:text-9xl">
           <motion.span
             initial={{ opacity: 0, y: 60 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.4, ease: [0.16, 1, 0.3, 1] }}
-            className={rest.length ? 'block' : 'text-gradient-gold block italic'}
+            className={
+              rest.length
+                ? 'block'
+                : 'text-gradient-gold block pr-[0.12em] pb-[0.18em] not-italic'
+            }
           >
             {first}
           </motion.span>

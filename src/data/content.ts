@@ -55,7 +55,8 @@ export const gallery: GalleryItem[] = [
   { src: "/photos/orry-main.jpg", caption: "The signature look" },
   { src: "/photos/with-dog.jpg", caption: "Poolside, animal lover", span: "wide" },
   { src: "/photos/at-restaurant.jpg", caption: "Out and about" },
-  { src: "/photos/childhood.jpg", caption: "Childhood, with his mother & brother", span: "tall" },
+  { src: "/photos/orry-photo.jpg", caption: "Pastel & poised", span: "tall" },
+  { src: "/photos/childhood.jpg", caption: "Childhood, with his mother & brother" },
   { src: "/photos/at-party.jpg", caption: "Younger days" },
 ]
 
@@ -74,21 +75,21 @@ export const films: Film[] = [
   {
     title: "The Bads of Bollywood",
     year: "2025",
-    role: "As himself",
+    role: "Himself",
     description:
       "Orry appears in Aryan Khan's glitzy Netflix series skewering the film industry — a natural home for Bollywood's favourite social butterfly.",
-    poster: null,
+    poster: "/photos/bads-song.jpg",
     tag: "Netflix Series",
-    trailerId: null,
-    watchUrl: "https://www.netflix.com/",
+    trailerId: "9wRY8JQkUk8",
+    watchUrl: "https://www.youtube.com/watch?v=9wRY8JQkUk8",
   },
   {
     title: "Nadaaniyan",
     year: "2025",
-    role: "As himself (cameo)",
+    role: "Himself (cameo)",
     description:
       "Karan Johar's Dharmatic romance launching Ibrahim Ali Khan and Khushi Kapoor — with a signature Orry appearance.",
-    poster: null,
+    poster: "/photos/nadaaniyan.jpg",
     tag: "Netflix Film",
     trailerId: "bXTsJKcx_fc",
     watchUrl: "https://www.youtube.com/watch?v=bXTsJKcx_fc",
@@ -110,7 +111,7 @@ export const films: Film[] = [
     role: "Special Guest",
     description:
       "His riotous, unfiltered sit-down on Bharti Singh & Haarsh Limbachiyaa's LOL Podcast — childhood, broken Hindi and all.",
-    poster: null,
+    poster: "/photos/podcast.jpg",
     tag: "Podcast",
     trailerId: "lneQHkE6dKY",
     watchUrl: "https://www.youtube.com/watch?v=lneQHkE6dKY",
