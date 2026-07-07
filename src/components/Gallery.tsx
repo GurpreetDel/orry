@@ -39,18 +39,12 @@ export default function Gallery() {
     <section id="gallery" className="mx-auto max-w-6xl scroll-mt-24 px-6 py-28">
       <SectionHeading kicker="The Frames" title="Gallery" />
 
-      <div className="grid grid-flow-row-dense auto-rows-[180px] grid-cols-2 gap-4 md:auto-rows-[220px] md:grid-cols-4">
+      <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4">
         {shots.map((item, i) => (
-          <Reveal
-            key={i}
-            delay={i * 0.05}
-            className={
-              item.span === 'tall' ? 'row-span-2' : item.span === 'wide' ? 'col-span-2' : ''
-            }
-          >
+          <Reveal key={i} delay={i * 0.04}>
             <button
               onClick={() => setIndex(i)}
-              className="group relative block h-full w-full cursor-pointer overflow-hidden rounded-xl border border-white/8 text-left"
+              className="group relative block aspect-square w-full cursor-pointer overflow-hidden rounded-xl border border-white/8 text-left"
             >
               <img
                 src={item.src!}

@@ -117,9 +117,17 @@ export default function Footer() {
               <span className="transition-transform group-hover:-translate-y-0.5">↑</span> Back to top
             </a>
 
-            <p className="order-first flex items-center gap-1.5 text-sm text-white/70 sm:order-none">
+            <p className="order-first flex flex-wrap items-center justify-center gap-1.5 text-sm text-white/70 sm:order-none">
               Made by
-              <span className="text-gradient-gold font-display font-bold italic">Alok</span>
+              <a
+                href="https://instagram.com/takemahheart"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group inline-flex items-center gap-1 transition-transform hover:scale-105"
+              >
+                <span className="text-gradient-gold font-display font-bold italic">Alok</span>
+                <span className="text-xs text-mist transition-colors group-hover:text-gold">@takemahheart</span>
+              </a>
               with
               <motion.span
                 animate={{ scale: [1, 1.25, 1] }}

@@ -46,18 +46,22 @@ export type GalleryItem = {
 
 export const gallery: GalleryItem[] = [
   // Publicity/press photos — sources credited in the footer disclaimer.
-  { src: "/photos/bigg-boss.jpg", caption: "“I am a liver” — Bigg Boss 17", span: "wide" },
-  { src: "/photos/glam-3.jpg", caption: "Couture, crystals & a dragonfly", span: "tall" },
-  { src: "/photos/with-sara.jpg", caption: "Beach day with Sara Ali Khan", span: "tall" },
+  { src: "/photos/bigg-boss.jpg", caption: "“I am a liver” — Bigg Boss 17" },
+  { src: "/photos/pb-1.jpg", caption: "Golden sherwani, royal mood" },
+  { src: "/photos/with-sara.jpg", caption: "Beach day with Sara Ali Khan" },
+  { src: "/photos/pb-3.jpg", caption: "Navy bandhgala elegance" },
   { src: "/photos/with-janhvi.jpg", caption: "Neon nights with Janhvi Kapoor" },
+  { src: "/photos/glam-3.jpg", caption: "Couture, crystals & a dragonfly" },
   { src: "/photos/with-kareena.jpg", caption: "With Kareena Kapoor" },
-  { src: "/photos/with-kylie.jpg", caption: "With Kylie Jenner", span: "tall" },
+  { src: "/photos/pb-4.jpg", caption: "With Karan Johar" },
+  { src: "/photos/with-kylie.jpg", caption: "With Kylie Jenner" },
   { src: "/photos/orry-main.jpg", caption: "The signature look" },
-  { src: "/photos/with-dog.jpg", caption: "Poolside, animal lover", span: "wide" },
+  { src: "/photos/pb-5.jpg", caption: "With Isha Ambani" },
+  { src: "/photos/with-dog.jpg", caption: "Poolside, animal lover" },
+  { src: "/photos/pb-2.jpg", caption: "Amalfi blue waters" },
   { src: "/photos/at-restaurant.jpg", caption: "Out and about" },
-  { src: "/photos/orry-photo.jpg", caption: "Pastel & poised", span: "tall" },
+  { src: "/photos/orry-photo.jpg", caption: "Pastel & poised" },
   { src: "/photos/childhood.jpg", caption: "Childhood, with his mother & brother" },
-  { src: "/photos/at-party.jpg", caption: "Younger days" },
 ]
 
 export type Film = {
