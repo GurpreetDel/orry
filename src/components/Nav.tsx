@@ -52,11 +52,11 @@ export default function Nav() {
           }`}
         >
           <a href="#top" className="group flex items-baseline gap-2">
-            <span className="text-gradient-gold font-display text-lg font-black tracking-tight italic sm:text-xl">
-              Nikhil Bhambri
+            <span className="text-gradient-gold font-display text-xl font-black tracking-tight sm:text-2xl">
+              Orry
             </span>
             <span className="hidden text-[9px] tracking-[0.3em] text-mist/70 uppercase transition-colors group-hover:text-gold sm:inline">
-              Fan Site
+              Orhan Awatramani · Fan Site
             </span>
           </a>
 
@@ -133,7 +133,7 @@ export default function Nav() {
               transition={{ delay: 0.4 }}
               className="text-gradient-gold font-display mt-10 text-sm italic"
             >
-              Nikhil Bhambri · Fan Site
+              Orry · Orhan Awatramani
             </motion.p>
           </motion.div>
         )}

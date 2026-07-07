@@ -102,8 +102,8 @@ export const films: Film[] = [
       "Orry entered Salman Khan's house as a wildcard — in his now-legendary “I am a liver” tee — and left everyone in splits.",
     poster: "/photos/bigg-boss.jpg",
     tag: "Reality TV",
-    trailerId: null,
-    watchUrl: null,
+    trailerId: "RUxwGaoaBuU",
+    watchUrl: "https://www.youtube.com/watch?v=RUxwGaoaBuU",
   },
   {
     title: "Orry Ka Hindi Podcast",
@@ -182,8 +182,8 @@ export type Social = {
 export const socials: Social[] = [
   {
     label: "Instagram",
-    handle: "@orry1",
-    url: "https://instagram.com/orry1",
+    handle: "@orry",
+    url: "https://instagram.com/orry",
     icon: "instagram",
   },
   {

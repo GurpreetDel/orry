@@ -41,12 +41,12 @@ export default function Footer() {
               <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-gold" />
               Join the fandom
             </p>
-            <h2 className="font-display text-5xl leading-[0.95] font-black sm:text-7xl">
+            <h2 className="font-display text-5xl leading-[1.05] font-black sm:text-7xl">
               Follow the <br />
-              <span className="text-gradient-gold italic">Rosewood Star</span>
+              <span className="text-gradient-gold pb-[0.12em] not-italic">Ultimate Liver</span>
             </h2>
             <p className="mx-auto mt-6 max-w-md text-base text-mist">
-              Every trailer drop, every new role — catch {first} first. Tap in below. ✨
+              Every party, every pose, every viral moment — catch {first} first. Tap in below. ✨
             </p>
           </div>
         </Reveal>
